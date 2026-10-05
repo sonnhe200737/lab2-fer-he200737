@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container.light {
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+}
+
+.app-container.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.app-container.dark button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.app-container.dark input {
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #555;
+}
